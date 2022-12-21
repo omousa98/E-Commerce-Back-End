@@ -1,28 +1,33 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "E-Commerce-Back-End",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/omousa98/E-Commerce-Back-End.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/omousa98/E-Commerce-Back-End/issues"
   },
+  "homepage": "https://github.com/omousa98/E-Commerce-Back-End#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
-  }
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.4"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {}
 }
